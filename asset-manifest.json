@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cypresse2e/static/css/main.2dd0720a.chunk.css",
-    "main.js": "/cypresse2e/static/js/main.01eccfe2.chunk.js",
-    "main.js.map": "/cypresse2e/static/js/main.01eccfe2.chunk.js.map",
+    "main.js": "/cypresse2e/static/js/main.f72d1544.chunk.js",
+    "main.js.map": "/cypresse2e/static/js/main.f72d1544.chunk.js.map",
     "runtime-main.js": "/cypresse2e/static/js/runtime-main.a64257f2.js",
     "runtime-main.js.map": "/cypresse2e/static/js/runtime-main.a64257f2.js.map",
     "static/js/2.1671fd3f.chunk.js": "/cypresse2e/static/js/2.1671fd3f.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a64257f2.js",
     "static/js/2.1671fd3f.chunk.js",
     "static/css/main.2dd0720a.chunk.css",
-    "static/js/main.01eccfe2.chunk.js"
+    "static/js/main.f72d1544.chunk.js"
   ]
 }
