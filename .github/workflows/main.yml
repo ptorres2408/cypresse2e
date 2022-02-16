@@ -1,8 +1,10 @@
 name: Cypress Test
+
 on:
   push:
     branches:
-      - develop
+      - 'develop'
+
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
@@ -12,4 +14,5 @@ jobs:
       - name: Cypress.io
         uses: cypress-io/github-action@v2.9.7
         with:
-          start: yarn start
+          start: npm run start
+      
