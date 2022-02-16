@@ -69,7 +69,7 @@ function App() {
               type="password"
               className="form-control"
               ref={post_description}
-              placeholder="password"
+              placeholder="password_secret"
               data-testid="password"
             />
           </div>
