@@ -1,10 +1,13 @@
 name: Cypress Test
+  
 on:
   push:
     branches:
     - develop
+    
 jobs:
   cypress-run:
+    if: github.ref == 'refs/heads/develop'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
