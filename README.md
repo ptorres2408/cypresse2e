@@ -68,3 +68,6 @@ Para publicar la aplicación en githug page:
 Para ver la dirección de la página creada, debe ir al repositorio y luego a settings/pages
 
 Cualquier cambio que se desee publicar en la página del sitio https://pedroot.github.io/cypresse2e/, se deberá:
+
+1. Hacer el build de la app, **npm run predeploy**
+2. Desplegar los cambios, **npm run deploy**
