@@ -16,14 +16,14 @@ class loginPage {
     success: () => {
       this.elements
         .boxResume()
-        .contains("200-OK")
+        .contains("200")
         .contains("statusCode")
         .contains("token");
     },
     fail: () => {
       this.elements
         .boxResume()
-        .contains("200-OK")
+        .contains("200")
         .contains("400")
         .contains("error");
     },
