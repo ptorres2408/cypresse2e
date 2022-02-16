@@ -48,7 +48,7 @@ function App() {
 
   return (
     <div id="app" className="container my-3">
-      <h3>Integration with github actions</h3>
+      <h3>Mega Login Plus TriMax++</h3>
 
       <div className="card mt-3">
         <div className="card-header">
@@ -61,7 +61,7 @@ function App() {
               className="form-control"
               ref={post_title}
               placeholder="example@email.com"
-              // data-testid="email"
+              data-testid="email"
             />
           </div>
           <div className="form-group">
