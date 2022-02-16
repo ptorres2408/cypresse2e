@@ -27,11 +27,11 @@ https://reqres.in/
 
 ## Descripción del action definido.
 
-El action ==Cypress Test== se activa tras cualquier commit envíado a la rama develop, este action corre en la máquina virtual de ubuntu-latest, la cual no tiene instalado yarn, por eso el uso de npm sobre yarn, al correr con éxito los test definidos en la carpeta ==cypress/test== se aprueba el commit en caso contrario no es aprobado.
+El action **Cypress Test** se activa tras cualquier commit envíado a la rama develop, este action corre en la máquina virtual de ubuntu-latest, la cual no tiene instalado yarn, por eso el uso de npm sobre yarn, al correr con éxito los test definidos en la carpeta **cypress/test** se aprueba el commit en caso contrario no es aprobado.
 
 ### Definición del action
 
-.github/workflows/main.yml 
+.github/workflows/main.yml
 
 ```yml
 name: Cypress Test
@@ -53,4 +53,18 @@ jobs:
           start: npm run start
 ```
 
+## Github pages
 
+Para publicar la aplicación en githug page:
+
+1. npm install --save-dev gh-pages
+2. Editar el archivo package.json y agregar: "homepage":"https://yourusername.github.io/repository-name"
+3. Agregar las siguientes llamadas a script:
+   1. "predeploy": "npm run build",
+   2. "deploy": "gh-pages -d build",
+4. Hacer el build con las modificaciones: npm run build
+5. Desplegar los cambios: npm run deploy
+
+Para ver la dirección de la página creada, debe ir al repositorio y luego a settings/pages
+
+Cualquier cambio que se desee publicar en la página del sitio [https://pedroot.github.io/cypresse2e/](url), se deberá:
