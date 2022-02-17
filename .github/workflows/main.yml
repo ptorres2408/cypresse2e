@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - '**/feature-**'
-      - '**/feature-**'
+      - '**/fixture-**'
       - 'develop'
     paths-ignore:
-      - 'main.yml'
+      - '**/main.yml'
 
 jobs:
   cypress-run:
