@@ -4,10 +4,6 @@ on:
   push:
     branches:
       - "develop"
-      
-    paths:
-      - "**/feature-**"
-      - "**/fixture-**"
 
 jobs:
   test-run:
