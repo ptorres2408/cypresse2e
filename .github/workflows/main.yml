@@ -3,8 +3,8 @@ name: Cypress Test
 on:
   push:
     branches:
-      - "feature-**"
-      - "fixture-**"
+      - "feature/**"
+      - "fixture/**"
       - "develop"
 
 jobs:
