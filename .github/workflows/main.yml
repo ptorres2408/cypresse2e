@@ -2,7 +2,7 @@ name: Cypress Test
 
 on:
   push:
-    branches:
+    paths:
       - "**/feature-**"
       - "**/fixture-**"
       - "develop"
