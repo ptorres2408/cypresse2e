@@ -37,8 +37,8 @@ describe("Interceptor command, work with APIs", () => {
       }).as("login-Fixture");
 
       loginPage.login(
-        this.credential.userValid.email,
-        this.credential.userValid.password
+        this.credential.userInvalid.email,
+        this.credential.userInvalid.password
       );
 
       cy.wait("@login-Fixture");
@@ -69,8 +69,8 @@ describe("Interceptor command, work with APIs", () => {
       }).as("login-Fixture");
 
       loginPage.login(
-        this.credential.userValid.email,
-        this.credential.userValid.password
+        this.credential.userInvalid.email,
+        this.credential.userInvalid.password
       );
 
       cy.wait("@login-Fixture");
