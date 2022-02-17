@@ -52,7 +52,7 @@ function App() {
 
       <div className="card mt-3">
         <div className="card-header">
-          {/* <code>eve.holt@reqres.in // cityslicka</code> */}
+          <code>eve.holt@reqres.in // cityslicka</code>
         </div>
         <div className="card-body">
           <div className="form-group">
