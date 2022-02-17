@@ -3,8 +3,6 @@ name: Cypress Test
 on:
   push:
     branches:
-      - '**feature-**'
-      - '**fixture-**'
       - 'develop'
       
     paths-ignore:
