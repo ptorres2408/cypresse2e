@@ -3,7 +3,9 @@ name: Cypress Test
 on:
   push:
     branches:
-      - 'develop'
+      - "feature-**"
+      - "fixture-**"
+      - "develop"
 
 jobs:
   cypress-run:
@@ -15,4 +17,3 @@ jobs:
         uses: cypress-io/github-action@v2.9.7
         with:
           start: npm run start
-      
