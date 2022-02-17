@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - "**/feature-deploy-*"
-
+      - "**/fixture-*"
+      
 jobs:
   test-run:
     runs-on: ubuntu-latest
