@@ -3,7 +3,11 @@ name: Cypress Test
 on:
   push:
     branches:
+      - '**/feature-*'
+      - '**/fixture-*'
       - 'develop'
+    paths-ignore:
+      - '**/*.yml'
 
 jobs:
   cypress-run:
