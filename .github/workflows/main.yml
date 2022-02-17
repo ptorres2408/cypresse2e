@@ -1,17 +1,16 @@
-name: Cypress Test
+name: Run test
 
 on:
   push:
     branches:
-      - "**/feature-**"
-      - "**/fixture-**"
       - "develop"
 
-    paths-ignore:
-      - "**/main.yml"
+    paths:
+      - "**/feature-**"
+      - "**/fixture-**"
 
 jobs:
-  cypress-run:
+  test-run:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
