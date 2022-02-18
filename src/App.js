@@ -56,13 +56,13 @@ function App() {
         </div>
         <div className="card-body">
           <div className="form-group">
-            {/* <input
+            <input
               type="text"
               className="form-control"
               ref={post_title}
               placeholder="example@email.com"
               data-testid="email"
-            /> */}
+            />
           </div>
           <div className="form-group">
             <input
