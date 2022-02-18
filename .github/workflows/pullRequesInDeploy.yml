@@ -1,7 +1,7 @@
 name: Pull Request in deploy branch
 
 on:
-  pull_request_review:
+  pull_request:
     branches:
       - "**/feature-deploy-*"
     types:
