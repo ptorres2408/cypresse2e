@@ -48,7 +48,7 @@ function App() {
 
   return (
     <div id="app" className="container my-3">
-      <h3>Mega Login Plus TriMax+</h3>
+      <h3>Mega Login Plus TriMax</h3>
 
       <div className="card mt-3">
         <div className="card-header">
