@@ -3,8 +3,9 @@ name: Run test
 on:
   push:
     branches:
-      - "**/feature-deploy-*"
       - "**/fixture-*"
+    branches-ignore:
+      - "**/feature-deploy-*"
 
 jobs:
   test-run:
