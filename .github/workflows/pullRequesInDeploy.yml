@@ -6,7 +6,7 @@ on:
       - "**/feature-deploy-*"
     types:
       - opened
-    
+
 jobs:
   pr-approved:
     runs-on: ubuntu-latest
