@@ -1,0 +1,19 @@
+name: Pull Request in deploy branch
+
+on:
+  pull_request_review:
+    branches:
+      - "**/feature-deploy-*"
+    types: [submitted]
+    
+jobs:
+  test-e2e-run:
+    if: github.event.review.state == 'approved' 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.4.0
+      - name: Cypress.io
+        uses: cypress-io/github-action@v2.9.7
+        with:
+          start: npm run start
