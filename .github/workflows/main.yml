@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - "**/fixture-*"
-    branches-ignore:
-      - "**/feature-deploy-*"
 
 jobs:
   test-run:
