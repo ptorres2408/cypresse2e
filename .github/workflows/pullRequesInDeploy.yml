@@ -1,13 +1,14 @@
-name: Run test
+name: Pull Request in deploy branch
 
 on:
-  push:
+  pull_request_review:
     branches:
       - "**/feature-deploy-*"
-      - "**/fixture-*"
-
+    types: [submitted]
+    
 jobs:
-  test-run:
+  test-e2e-run:
+    if: github.event.review.state == 'approved' 
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
