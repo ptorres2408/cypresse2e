@@ -6,12 +6,12 @@ on:
       - "!**/feature-deploy-*"
       - "**/fixture-*"
 
-  pull_request:
-    branches:
-      - "**/feature-deploy-*"
-      - "!**/fixture-*"
-    types:
-      - opened
+#   pull_request:
+#     branches:
+#       - "**/feature-deploy-*"
+#       - "!**/fixture-*"
+#     types:
+#       - opened
 
 jobs:
   test-run:
