@@ -4,11 +4,11 @@ on:
   pull_request_review:
     branches:
       - "**/feature-deploy-*"
-    types: [submitted]
+    types:
+      - opened
     
 jobs:
-  test-e2e-run:
-    if: github.event.review.state == 'approved' 
+  pr-approved:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
