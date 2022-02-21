@@ -39,7 +39,6 @@ function App() {
         headers: res.headers,
         data: res.data,
       };
-
       setLoginResult(fortmatResponse(result));
     } catch (err) {
       setLoginResult(fortmatResponse(err.response?.data || err));
