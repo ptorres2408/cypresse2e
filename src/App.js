@@ -24,7 +24,7 @@ function App() {
     };
 
     try {
-      const resxxxx = await apiClient.post(
+      const res = await apiClient.post(
         "https://reqres.in/api/login",
         postData,
         {
