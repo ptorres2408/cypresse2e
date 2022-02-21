@@ -55,7 +55,7 @@ function App() {
           <code>eve.holt@reqres.in // cityslicka</code>
         </div>
         <div className="card-body">
-          {/* <div className="form-group">
+          <div className="form-group">
              <input
               type="text"
               className="form-control"
@@ -63,7 +63,7 @@ function App() {
               placeholder="example@email.com"
               data-testid="email"
             />
-          </div>modify for PT*/}
+          </div>
           <div className="form-group">
             <input
               type="password"
