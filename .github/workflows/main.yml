@@ -1,17 +1,17 @@
 name: Run test
 
 on:
-#   push:
-#     branches:
-#       - "!**/feature-deploy-*"
-#       - "**/fixture-*"
-
+#  push:
+#    branches:
+#      - "!**/feature-deploy-*"
+#      - "**/fixture-*"
+      
   pull_request:
-    branches:
-      - "**/feature-deploy-*"
-      - "!**/fixture-*"
-    types:
-      - opened
+     branches:
+       - "**/feature-deploy-*"
+       - "**/fixture-*"
+     types:
+       - opened
 
 jobs:
   test-run:
