@@ -55,15 +55,16 @@ function App() {
           <code>eve.holt@reqres.in // cityslicka</code>
         </div>
         <div className="card-body">
-          <div className="form-group">
-            {/* <input
+         {/* <div className="form-group">
+             <input
               type="text"
               className="form-control"
               ref={post_title}
               placeholder="example@email.com"
               data-testid="email"
-            /> */}
-          </div>
+            />
+          </div>*/}
+          
           <div className="form-group">
             <input
               type="password"
